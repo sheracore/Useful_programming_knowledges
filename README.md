@@ -5,4 +5,4 @@ Mocking is primarily used in unit testing. An object under test may have depende
 In short, mocking is creating objects that simulate the behavior of real objects.
 
 ## Hash table
-!(hash_table)[https://techdic.ir/definition/hash-table/]
+![hash_table](https://techdic.ir/definition/hash-table/)
