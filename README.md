@@ -12,7 +12,7 @@ In short, mocking is creating objects that simulate the behavior of real objects
 
 ## Concurrency
 concurrency is not the same as parallel programming or parallelism because parallelism is about parallel execution and concurrency is a little bit more bacause concurrency is about designing your program as a collection of independent processes about designing these processes to eventually run in parallel.
-concurrency is good for your code  if
+concurrency is good for your code  if:
 * group code(and data) by identifying independent tasks
 * no race conditions
 * no deadlocks
