@@ -18,4 +18,24 @@ Concurrency is good for your code  if:
 * no deadlocks
 * more workers = faster execution
 
-Concurrency is aboute breaking up  a program into independently executing tasks could potentially run at the same time and still getting the right result at the end so concurrent program can be parallelized 
+Concurrency is aboute breaking up  a program into independently executing tasks could potentially run at the same time and still getting the right result at the end so concurrent program can be parallelized.
+In golang you can run methods by go like this
+
+```
+fun main(){
+ c := make(chan sting)
+ go count("ship", c)
+ 
+ msg := <- c
+ fmt.Pringln(msg)
+ 
+}
+func count(thing string, c chan sting){
+    for i := 1; i<5 i++ {
+      c <- thing
+      time.Sleep(time.Millisecond * 500)
+    }
+}
+```
+In this code go means goroutine
+
