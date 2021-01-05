@@ -38,4 +38,5 @@ func count(thing string, c chan sting){
 }
 ```
 In this code go means goroutine
+[golang pool worker](https://www.youtube.com/watch?v=LvgVSSpwND8)
 
