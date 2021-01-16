@@ -16,10 +16,10 @@ In short, mocking is creating objects that simulate the behavior of real objects
 
 Concurrency is not the same as parallel programming or parallelism because parallelism is about parallel execution and concurrency is a little bit more bacause Concurrency is about designing your program as a collection of independent processes about designing these processes to eventually run in parallel.
 Concurrency is good for your code  if:
-* group code(and data) by identifying independent tasks
-* no race conditions
-* no deadlocks
-* more workers = faster execution
+* Group code(and data) by identifying independent tasks
+* No race conditions
+* No deadlocks
+* More workers = faster execution
 
 Concurrency is aboute breaking up  a program into independently executing tasks could potentially run at the same time and still getting the right result at the end so concurrent program can be parallelized.
 In golang you can run methods by go like this
